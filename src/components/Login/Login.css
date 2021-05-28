@@ -1,0 +1,55 @@
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 26px !important;
+}
+
+#username,
+#password {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  height: 31px;
+  width: 350px;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+
+.img_1 {
+  height: 31px;
+  width: 103px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* .extra-margin {
+  margin-top: 200px;
+} */
+
+button {
+  width: 350px;
+  height: 31px;
+  margin-top: 20px;
+  background-color: #f0c14b;
+  border-radius: 3px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 14px;
+}
+
+form {
+  border: 1px solid lightgrey;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 35px;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
